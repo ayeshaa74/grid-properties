@@ -1,0 +1,21 @@
+.container {
+    background-color: red;
+    width: auto;
+    height: auto;
+    /* grid-template-columns:135px 135px 135px ;
+    grid-template-rows:135px 135px 135px ; */
+    /* display: grid; */
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: 80px;
+    column-gap: 20px;
+    /* overflow: hidden */
+    margin: 1px 2px 2px 4px;
+}
+
+.items {
+    background-color: aqua;
+    width: 122px;
+    height: 122px;
+}
